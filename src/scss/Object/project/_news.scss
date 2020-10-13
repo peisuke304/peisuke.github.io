@@ -1,0 +1,21 @@
+.p-news {
+  margin: 0 auto;
+  padding: $space_l $space_xl;
+  background: $back-color_ornament;
+  border-radius: 10px;
+  overflow-y: scroll;
+  width: 80%;
+  height: 80px;
+  &__item {
+    margin-bottom: $space_s;
+  }
+  &__date {
+    color: $font-color_red;
+    margin-right: $space_m;
+    font-weight: bold;
+    font-family: $font-family_corp;
+  }
+  &__title {
+    font-size: $font-size_m;
+  }
+}

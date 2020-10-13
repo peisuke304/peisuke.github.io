@@ -1,0 +1,23 @@
+.c-btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  &__l {
+    width: 100%;
+    padding: $space_l $space_xxl;
+    font-size: $font-size_l;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: .3s;
+    &:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      transform: translateY(-3px);
+      transition: .3s;
+    }
+  }
+  &__corp { // グラーデーション参考 https://uigradients.com/
+    color: #fff;
+    background: #ee9ca7;
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  }
+}

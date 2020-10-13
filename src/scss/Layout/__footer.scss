@@ -1,0 +1,14 @@
+#footer {
+  background: #555;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  br {
+    display: none;
+    @include mq () {
+      display: block;
+    }
+  }
+}

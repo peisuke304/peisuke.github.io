@@ -1,0 +1,50 @@
+//FLOCSS設計実施
+//style.cssはSASSを統括するファイル。
+
+// ==============================
+// Foundation
+// ==============================
+//変数/mixin/base/
+@import "Foundation/__base.scss";
+
+// ==================================
+// Layout
+// ==================================
+// main
+@import "Layout/__main.scss";
+// header
+@import "Layout/__header.scss";
+// footer
+@import "Layout/__footer.scss";
+
+//=====================================
+//Object
+//=====================================
+//Component
+//-------------------------------------
+//session
+@import "object/component/_sessionBox.scss";
+//panel
+@import "object/component/_panel.scss";
+//card
+@import "object/component/_card.scss";
+//form
+@import "object/component/_form.scss";
+//input
+@import "object/component/_input.scss";
+//btn
+@import "object/component/_btn.scss";
+
+//Project
+//-------------------------------------
+//hero
+@import "object/project/_hero.scss";
+//menu
+@import "object/project/_menu.scss";
+//news
+@import "object/project/_news.scss";
+
+//Utility
+//--------------------------------------
+//text
+@import "object/utility/_text.scss";

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FLOCSS・レスポンシブ</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./dist/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./dist/css/style.css">
+</head>
+<body>
+<header class="js-float-menu" id="header">
+    <h1 class="header__title">Responsive Design</h1>
+    <div class="header__trigger js-toggle-sp-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav class="p-menu js-toggle-sp-menu-target">
+        <ul class="p-menu__wrap">
+            <li class="p-menu__item"><a class="p-menu__link" href="">TOP</a></li>
+            <li class="p-menu__item"><a class="p-menu__link" href="#news">NEWS</a></li>
+            <li class="p-menu__item"><a class="p-menu__link" href="#about">ABOUT</a></li>
+            <li class="p-menu__item"><a class="p-menu__link" href="#staff">STAFF</a></li>
+            <li class="p-menu__item"><a class="p-menu__link" href="#cource">COURCE</a></li>
+            <li class="p-menu__item"><a class="p-menu__link" href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+<main id="main-1colum">
+
+    <!--ヒーローセクション-->
+    <section class="p-hero js-float-menu-target">
+        <h2 class="p-hero-title js-float-menu-target">Responsive Design<br> is so good.</h2>
+    </section>
+
+<!--news-->
+    <section class="c-sessionBox" id="news">
+        <div class="c-sessionBox__head">
+            <h2 class="c-sessionBox__title c-sessionBox__title--border"><span class="c-sessionBox__title--bordernone">NEWS</span></h2>
+        </div>
+        <div class="c-sessionBox__body">
+            <ul class="p-news">
+                <li class="p-news__item">
+                    <a href="">
+                        <span class="p-news__date">2019.12.31</span>
+                        <span class="p-news__title">サンプルNEWSタイトルサンプルNEWSタイトル</span>
+                    </a>
+                </li>
+                <li class="p-news__item">
+                    <a href="">
+                        <span class="p-news__date">2019.12.31</span>
+                        <span class="p-news__title">サンプルNEWSタイトルサンプルNEWSタイトル</span>
+                    </a>
+                </li>
+                <li class="p-news__item">
+                    <a href="">
+                        <span class="p-news__date">2019.12.31</span>
+                        <span class="p-news__title">サンプルNEWSタイトルサンプルNEWSタイトル</span>
+                    </a>
+                </li>
+                <li class="p-news__item">
+                    <a href="">
+                        <span class="p-news__date">2019.12.31</span>
+                        <span class="p-news__title">サンプルNEWSタイトルサンプルNEWSタイトル</span>
+                    </a>
+                </li>
+                <li class="p-news__item">
+                    <a href="">
+                        <span class="p-news__date">2019.12.31</span>
+                        <span class="p-news__title">サンプルNEWSタイトルサンプルNEWSタイトル</span>
+                    </a>
+                </li>
+                <li class="p-news__item">
+                    <a href="">
+                        <span class="p-news__date">2019.12.31</span>
+                        <span class="p-news__title">サンプルNEWSタイトルサンプルNEWSタイトル</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+<!--    about-->
+    <section class="c-sessionBox c-sessionBox--primary" id="about">
+        <div class="c-sessionBox__head">
+            <h2 class="c-sessionBox__title">ABOUT</h2>
+        </div>
+        <div class="c-sessionBox__body">
+            <div class="c-sessionBox__textarea">
+                <p>
+                    どんな大きさの画面でも見やすく、使いやすいWebサイトにするため、レスポンシブWEBデザインにしています。
+                    1つのHTMLで配信し、scssを用いたFLOCSS設計思想でコーディングしています。
+                    Webサイトに載せる情報を修正や更新する時に作業が1回で済むようになっています。
+                </p>
+            </div>
+        </div>
+    </section>
+
+<!--    STAFF-->
+    <section class="c-sessionBox" id="staff">
+        <div class="c-sessionBox__head">
+            <h2 class="c-sessionBox__title c-sessionBox__title--border"><span class="c-sessionBox__title--bordernone">STAFF</span></h2>
+        </div>
+        <div class="c-sessionBox__body">
+            <div class="c-panel__group">
+                <a href="" class="c-panel c-panel__staff">
+                    <img src="./dist/images/staff1.jpg" alt="">
+                </a>
+                <a href="" class="c-panel c-panel__staff">
+                    <img src="./dist/images/staff2.jpeg" alt="">
+                </a>
+                <a href="" class="c-panel c-panel__staff">
+                    <img src="./dist/images/staff3.jpeg" alt="">
+                </a>
+                <a href="" class="c-panel c-panel__staff">
+                    <img src="./dist/images/staff4.jpg" alt="">
+                </a>
+                <a href="" class="c-panel c-panel__staff">
+                    <img src="./dist/images/staff5.jpg" alt="">
+                </a>
+                <a href="" class="c-panel c-panel__staff">
+                    <img src="./dist/images/staff6.jpg" alt="">
+                </a>
+                <a href="" class="c-panel c-panel__staff">
+                    <img src="./dist/images/staff1.jpg" alt="">
+                </a>
+                <a href="" class="c-panel c-panel__staff">
+                    <img src="./dist/images/staff2.jpeg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+<!--    COURCE-->
+    <section class="c-sessionBox c-sessionBox--primary" id="cource">
+        <div class="c-sessionBox__head">
+            <h2 class="c-sessionBox__title">COURCE</h2>
+        </div>
+        <div class="c-sessionBox__body">
+
+            <div class="c-card__group">
+                <div class="c-card c-card--primary">
+                    <div class="c-card__head">
+                        <span class="u-ft__corp u-ft__l">Bussines</span>コース
+                    </div>
+                    <div class="c-card__body">
+                        <img src="./dist/images/price1.jpg" alt="">
+                    </div>
+                    <div class="c-card__footer">
+                        <p>
+                            多色使いで髪に立体的な表情が生まれ必要な部分に
+                            カラーリングを施すので髪全体の負担が少なくなります。
+                            ハイライト、又はローライトなどが含まれます。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="c-card c-card--primary">
+                    <div class="c-card__head">
+                        <span class="u-ft__corp u-ft__l">Advance</span>コース
+                    </div>
+                    <div class="c-card__body">
+                        <img src="./dist/images/price2.jpg" alt="">
+                    </div>
+                    <div class="c-card__footer">
+                        <p>
+                            髪に水分をたっぷり保ちながらぷるんとした
+                            自然な仕上がりのデジタルパーマです。
+                            低温でロットを巻くので髪へのダメージを
+                            最小限に抑えられ、まとまりのある髪になります。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="c-card c-card--primary">
+                    <div class="c-card__head">
+                        <span class="u-ft__corp u-ft__l">Beginners</span>コース
+                    </div>
+                    <div class="c-card__body">
+                        <img src="./dist/images/price3.jpg" alt="">
+                    </div>
+                    <div class="c-card__footer">
+                        <p>
+                            綺麗な髪はまず頭皮から。毛穴の詰まりを除去したり、
+                            頭皮のトリートメントで健康な髪と頭皮に。
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+<!--    CONTACT-->
+    <section class="c-sessionBox" id="contact">
+        <div class="c-sessionBox__head">
+            <h2 class="c-sessionBox__title c-sessionBox__title--border"><span class="c-sessionBox__title--bordernone">CONTACT</span></h2>
+        </div>
+        <div class="c-sessionBox__body">
+            <form action="" class="c-form c-form__m">
+                <input type="text" class="c-input c-input__l" placeholder="お名前">
+                <input type="email" class="c-input c-input__l" placeholder="Email">
+                <textarea name="" class="c-input c-input__l c-input__textarea" placeholder="お問い合わせ内容"></textarea>
+                <button class="c-btn c-btn__l c-btn__corp">送信</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer id="footer">
+    <p>Copyright © responsibe. <br>All Rights Reserved</p>
+</footer>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="./src/js/app.js"></script>
+</body>
+</html>

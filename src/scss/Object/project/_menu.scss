@@ -1,0 +1,36 @@
+.p-menu {
+  @include mq($breakpoint: md) { //画面外にずらして置いてクリック（acrive付いたら）されたら出てくる。
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, .85);
+    padding-top: 50px;
+    text-align: center;
+    transition: .5s;
+    &.active {
+      transform: translateX(-100%);
+      z-index: 2;
+    }
+  }
+  &__wrap {
+    display: flex;
+    align-items: center;
+    font-size: $font-size_xl;
+    font-family: $font-family_corp;
+    @include mq($breakpoint: md) {
+      display: block;
+      font-size: $font-size_xxl;
+      &-item {
+        padding: $space_l;
+      }
+    }
+  }
+  &__item {
+    margin-left: $space_xl;
+    @include mq($breakpoint: md) {
+      padding: $space_l;
+    }
+  }
+}

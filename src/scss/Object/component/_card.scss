@@ -1,0 +1,31 @@
+.c-card__group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -$space_l;
+  padding: 0 $space_l;
+}
+.c-card {
+  width: calc(33.3% - #{$space_l});
+  margin: 0 0 $space_l $space_l;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: $space_s $space_s 0 rgba(0,0,0,.1);
+  &--primary {
+    border: 5px solid $color_corp;
+  }
+  @include mq ($breakpoint: dw) {
+    width: calc(50% - #{$space_l});
+  }
+  @include mq ($breakpoint: md) {
+    width: calc(100% - #{$space_l});
+  }
+  &__head {
+    padding: $space_m;
+    text-align: center;
+    color: $color_corp;
+  }
+  &__footer {
+    padding: $space_l;
+  }
+}

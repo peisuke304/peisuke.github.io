@@ -1,0 +1,49 @@
+.c-sessionBox {
+  padding: 80px 0 120px;
+  margin: 0 auto;
+  width: 100%;
+  &--primary {
+    background: $back-color_ornament;
+    box-shadow: 0px 0px 8px 2px #ddd inset;
+  }
+  &__title {
+    font-family: $font-family_corp;
+    text-align: center;
+    font-size: $font-size_3l;
+    margin-bottom: $space_3l;
+    &--border {
+      width: $site-width;
+      margin: 0 auto;
+      @include mq ( $breakpoint: dw) {
+        width: 80%;
+      }
+      &:before, &:after {
+        border-top: 1px solid #2e1f1a;
+        content: "";
+        display: block;
+        position: relative;
+        z-index: 0;
+      }
+      &:before {
+        top: 28px;
+      }
+      &:after {
+        top: -28px;
+      }
+      &none {
+        display: inline-block;
+        background-color: $background-color;
+        position: relative;
+        padding: 0 $space_m;
+        z-index: 1;
+      }
+    }
+  }
+  &__body {
+    width: $site-width;
+    margin: 0 auto;
+    @include mq ( $breakpoint: dw) {
+      width: 80%;
+    }
+  }
+}

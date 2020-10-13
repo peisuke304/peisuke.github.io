@@ -1,0 +1,20 @@
+.c-input {
+  display: block;
+  margin-bottom: $space_m;
+  border: 3px solid $back-color_ornament;
+  &__l {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    padding: 5px 10px;
+    font-size: $font-size_l;
+  }
+  &__textarea {
+    height: 200px;
+    margin-bottom: 30px;
+  }
+}
+
+::placeholder {
+  color: #ccc;
+}

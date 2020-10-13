@@ -1,0 +1,12 @@
+.c-form {
+  &__m {
+    width: 60%;
+    margin: 0 auto;
+    @include mq ($breakpoint: dw) {
+      width: 80%;
+    }
+    @include mq ($breakpoint: md) {
+      width: 100%;
+    }
+  }
+}

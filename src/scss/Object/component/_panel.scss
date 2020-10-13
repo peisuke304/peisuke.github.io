@@ -1,0 +1,22 @@
+.c-panel__group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -$space_l;
+}
+.c-panel {
+  transition: .5s;
+  margin: 0 0 $space_l $space_l;
+  &:hover{
+    opacity: .5;
+    transition: .5s;
+  }
+  &__staff {
+    width: calc(25% - #{$space_l});
+    @include mq ($breakpoint: md) {
+      width: calc(33.3% - #{$space_l});
+    }
+    @include mq() {
+      width: calc(50% - #{$space_l});
+    }
+  }
+}
